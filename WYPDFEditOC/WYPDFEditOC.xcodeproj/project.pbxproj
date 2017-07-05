@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182EA1771F0C74FA00470A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA1761F0C74FA00470A9A /* main.m */; };
+		182EA17A1F0C74FA00470A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA1791F0C74FA00470A9A /* AppDelegate.m */; };
+		182EA17D1F0C74FA00470A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA17C1F0C74FA00470A9A /* ViewController.m */; };
+		182EA1801F0C74FA00470A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA17E1F0C74FA00470A9A /* Main.storyboard */; };
+		182EA1821F0C74FA00470A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1811F0C74FA00470A9A /* Assets.xcassets */; };
+		182EA1851F0C74FA00470A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1831F0C74FA00470A9A /* LaunchScreen.storyboard */; };
+		182EA1901F0C74FA00470A9A /* WYPDFEditOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA18F1F0C74FA00470A9A /* WYPDFEditOCTests.m */; };
+		182EA19B1F0C74FA00470A9A /* WYPDFEditOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA19A1F0C74FA00470A9A /* WYPDFEditOCUITests.m */; };
+		182EA1B11F0C769C00470A9A /* libFoxitRDKUIExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EA1AB1F0C769C00470A9A /* libFoxitRDKUIExtensions.a */; };
+		182EA1B21F0C769C00470A9A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1AC1F0C769C00470A9A /* Localizable.strings */; };
+		182EA1B31F0C769C00470A9A /* WYPDFManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 182EA1AF1F0C769C00470A9A /* WYPDFManager.mm */; };
+		182EA1B41F0C779C00470A9A /* FoxitRDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EA1AA1F0C769C00470A9A /* FoxitRDK.framework */; };
+		182EA1B51F0C779C00470A9A /* FoxitRDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182EA1AA1F0C769C00470A9A /* FoxitRDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		182EA1BB1F0C7DB300470A9A /* developer_guide_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1B81F0C7DB300470A9A /* developer_guide_ios.pdf */; };
+		182EA1BC1F0C7DB300470A9A /* getting_started_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1B91F0C7DB300470A9A /* getting_started_ios.pdf */; };
+		182EA1BD1F0C7DB300470A9A /* 阿里巴巴java开发手册.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EA1BA1F0C7DB300470A9A /* 阿里巴巴java开发手册.pdf */; };
+		182EA1C01F0C7F8700470A9A /* WYPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA1BF1F0C7F8700470A9A /* WYPDFViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182EA18C1F0C74FA00470A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182EA16A1F0C74FA00470A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182EA1711F0C74FA00470A9A;
+			remoteInfo = WYPDFEditOC;
+		};
+		182EA1971F0C74FA00470A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182EA16A1F0C74FA00470A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182EA1711F0C74FA00470A9A;
+			remoteInfo = WYPDFEditOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		182EA1B61F0C779C00470A9A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				182EA1B51F0C779C00470A9A /* FoxitRDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		182EA1721F0C74FA00470A9A /* WYPDFEditOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPDFEditOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182EA1761F0C74FA00470A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182EA1781F0C74FA00470A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182EA1791F0C74FA00470A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182EA17B1F0C74FA00470A9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182EA17C1F0C74FA00470A9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182EA17F1F0C74FA00470A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182EA1811F0C74FA00470A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182EA1841F0C74FA00470A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182EA1861F0C74FA00470A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182EA18B1F0C74FA00470A9A /* WYPDFEditOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPDFEditOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182EA18F1F0C74FA00470A9A /* WYPDFEditOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPDFEditOCTests.m; sourceTree = "<group>"; };
+		182EA1911F0C74FA00470A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182EA1961F0C74FA00470A9A /* WYPDFEditOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPDFEditOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182EA19A1F0C74FA00470A9A /* WYPDFEditOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPDFEditOCUITests.m; sourceTree = "<group>"; };
+		182EA19C1F0C74FA00470A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182EA1AA1F0C769C00470A9A /* FoxitRDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxitRDK.framework; sourceTree = "<group>"; };
+		182EA1AB1F0C769C00470A9A /* libFoxitRDKUIExtensions.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFoxitRDKUIExtensions.a; sourceTree = "<group>"; };
+		182EA1AC1F0C769C00470A9A /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		182EA1AE1F0C769C00470A9A /* WYPDFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPDFManager.h; sourceTree = "<group>"; };
+		182EA1AF1F0C769C00470A9A /* WYPDFManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WYPDFManager.mm; sourceTree = "<group>"; };
+		182EA1B81F0C7DB300470A9A /* developer_guide_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = developer_guide_ios.pdf; sourceTree = "<group>"; };
+		182EA1B91F0C7DB300470A9A /* getting_started_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = getting_started_ios.pdf; sourceTree = "<group>"; };
+		182EA1BA1F0C7DB300470A9A /* 阿里巴巴java开发手册.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "阿里巴巴java开发手册.pdf"; sourceTree = "<group>"; };
+		182EA1BE1F0C7F8700470A9A /* WYPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPDFViewController.h; sourceTree = "<group>"; };
+		182EA1BF1F0C7F8700470A9A /* WYPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPDFViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182EA16F1F0C74FA00470A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EA1B41F0C779C00470A9A /* FoxitRDK.framework in Frameworks */,
+				182EA1B11F0C769C00470A9A /* libFoxitRDKUIExtensions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1881F0C74FA00470A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1931F0C74FA00470A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182EA1691F0C74FA00470A9A = {
+			isa = PBXGroup;
+			children = (
+				182EA1741F0C74FA00470A9A /* WYPDFEditOC */,
+				182EA18E1F0C74FA00470A9A /* WYPDFEditOCTests */,
+				182EA1991F0C74FA00470A9A /* WYPDFEditOCUITests */,
+				182EA1731F0C74FA00470A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182EA1731F0C74FA00470A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1721F0C74FA00470A9A /* WYPDFEditOC.app */,
+				182EA18B1F0C74FA00470A9A /* WYPDFEditOCTests.xctest */,
+				182EA1961F0C74FA00470A9A /* WYPDFEditOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182EA1741F0C74FA00470A9A /* WYPDFEditOC */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1B71F0C7DB300470A9A /* Resource */,
+				182EA1A81F0C769C00470A9A /* WYPDFEditTool */,
+				182EA1781F0C74FA00470A9A /* AppDelegate.h */,
+				182EA1791F0C74FA00470A9A /* AppDelegate.m */,
+				182EA17B1F0C74FA00470A9A /* ViewController.h */,
+				182EA17C1F0C74FA00470A9A /* ViewController.m */,
+				182EA1BE1F0C7F8700470A9A /* WYPDFViewController.h */,
+				182EA1BF1F0C7F8700470A9A /* WYPDFViewController.m */,
+				182EA17E1F0C74FA00470A9A /* Main.storyboard */,
+				182EA1811F0C74FA00470A9A /* Assets.xcassets */,
+				182EA1831F0C74FA00470A9A /* LaunchScreen.storyboard */,
+				182EA1861F0C74FA00470A9A /* Info.plist */,
+				182EA1751F0C74FA00470A9A /* Supporting Files */,
+			);
+			path = WYPDFEditOC;
+			sourceTree = "<group>";
+		};
+		182EA1751F0C74FA00470A9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1761F0C74FA00470A9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182EA18E1F0C74FA00470A9A /* WYPDFEditOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				182EA18F1F0C74FA00470A9A /* WYPDFEditOCTests.m */,
+				182EA1911F0C74FA00470A9A /* Info.plist */,
+			);
+			path = WYPDFEditOCTests;
+			sourceTree = "<group>";
+		};
+		182EA1991F0C74FA00470A9A /* WYPDFEditOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182EA19A1F0C74FA00470A9A /* WYPDFEditOCUITests.m */,
+				182EA19C1F0C74FA00470A9A /* Info.plist */,
+			);
+			path = WYPDFEditOCUITests;
+			sourceTree = "<group>";
+		};
+		182EA1A81F0C769C00470A9A /* WYPDFEditTool */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1A91F0C769C00470A9A /* FoxitRDK */,
+				182EA1AD1F0C769C00470A9A /* WYPDFManager */,
+			);
+			path = WYPDFEditTool;
+			sourceTree = "<group>";
+		};
+		182EA1A91F0C769C00470A9A /* FoxitRDK */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1AA1F0C769C00470A9A /* FoxitRDK.framework */,
+				182EA1AB1F0C769C00470A9A /* libFoxitRDKUIExtensions.a */,
+				182EA1AC1F0C769C00470A9A /* Localizable.strings */,
+			);
+			path = FoxitRDK;
+			sourceTree = "<group>";
+		};
+		182EA1AD1F0C769C00470A9A /* WYPDFManager */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1AE1F0C769C00470A9A /* WYPDFManager.h */,
+				182EA1AF1F0C769C00470A9A /* WYPDFManager.mm */,
+			);
+			path = WYPDFManager;
+			sourceTree = "<group>";
+		};
+		182EA1B71F0C7DB300470A9A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				182EA1B81F0C7DB300470A9A /* developer_guide_ios.pdf */,
+				182EA1B91F0C7DB300470A9A /* getting_started_ios.pdf */,
+				182EA1BA1F0C7DB300470A9A /* 阿里巴巴java开发手册.pdf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182EA1711F0C74FA00470A9A /* WYPDFEditOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182EA19F1F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOC" */;
+			buildPhases = (
+				182EA16E1F0C74FA00470A9A /* Sources */,
+				182EA16F1F0C74FA00470A9A /* Frameworks */,
+				182EA1701F0C74FA00470A9A /* Resources */,
+				182EA1B61F0C779C00470A9A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPDFEditOC;
+			productName = WYPDFEditOC;
+			productReference = 182EA1721F0C74FA00470A9A /* WYPDFEditOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182EA18A1F0C74FA00470A9A /* WYPDFEditOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182EA1A21F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOCTests" */;
+			buildPhases = (
+				182EA1871F0C74FA00470A9A /* Sources */,
+				182EA1881F0C74FA00470A9A /* Frameworks */,
+				182EA1891F0C74FA00470A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182EA18D1F0C74FA00470A9A /* PBXTargetDependency */,
+			);
+			name = WYPDFEditOCTests;
+			productName = WYPDFEditOCTests;
+			productReference = 182EA18B1F0C74FA00470A9A /* WYPDFEditOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182EA1951F0C74FA00470A9A /* WYPDFEditOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182EA1A51F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOCUITests" */;
+			buildPhases = (
+				182EA1921F0C74FA00470A9A /* Sources */,
+				182EA1931F0C74FA00470A9A /* Frameworks */,
+				182EA1941F0C74FA00470A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182EA1981F0C74FA00470A9A /* PBXTargetDependency */,
+			);
+			name = WYPDFEditOCUITests;
+			productName = WYPDFEditOCUITests;
+			productReference = 182EA1961F0C74FA00470A9A /* WYPDFEditOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182EA16A1F0C74FA00470A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "White-Young";
+				TargetAttributes = {
+					182EA1711F0C74FA00470A9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					182EA18A1F0C74FA00470A9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182EA1711F0C74FA00470A9A;
+					};
+					182EA1951F0C74FA00470A9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182EA1711F0C74FA00470A9A;
+					};
+				};
+			};
+			buildConfigurationList = 182EA16D1F0C74FA00470A9A /* Build configuration list for PBXProject "WYPDFEditOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182EA1691F0C74FA00470A9A;
+			productRefGroup = 182EA1731F0C74FA00470A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182EA1711F0C74FA00470A9A /* WYPDFEditOC */,
+				182EA18A1F0C74FA00470A9A /* WYPDFEditOCTests */,
+				182EA1951F0C74FA00470A9A /* WYPDFEditOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182EA1701F0C74FA00470A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EA1851F0C74FA00470A9A /* LaunchScreen.storyboard in Resources */,
+				182EA1B21F0C769C00470A9A /* Localizable.strings in Resources */,
+				182EA1821F0C74FA00470A9A /* Assets.xcassets in Resources */,
+				182EA1801F0C74FA00470A9A /* Main.storyboard in Resources */,
+				182EA1BB1F0C7DB300470A9A /* developer_guide_ios.pdf in Resources */,
+				182EA1BD1F0C7DB300470A9A /* 阿里巴巴java开发手册.pdf in Resources */,
+				182EA1BC1F0C7DB300470A9A /* getting_started_ios.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1891F0C74FA00470A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1941F0C74FA00470A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182EA16E1F0C74FA00470A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EA1B31F0C769C00470A9A /* WYPDFManager.mm in Sources */,
+				182EA17D1F0C74FA00470A9A /* ViewController.m in Sources */,
+				182EA17A1F0C74FA00470A9A /* AppDelegate.m in Sources */,
+				182EA1771F0C74FA00470A9A /* main.m in Sources */,
+				182EA1C01F0C7F8700470A9A /* WYPDFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1871F0C74FA00470A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EA1901F0C74FA00470A9A /* WYPDFEditOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182EA1921F0C74FA00470A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EA19B1F0C74FA00470A9A /* WYPDFEditOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182EA18D1F0C74FA00470A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182EA1711F0C74FA00470A9A /* WYPDFEditOC */;
+			targetProxy = 182EA18C1F0C74FA00470A9A /* PBXContainerItemProxy */;
+		};
+		182EA1981F0C74FA00470A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182EA1711F0C74FA00470A9A /* WYPDFEditOC */;
+			targetProxy = 182EA1971F0C74FA00470A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182EA17E1F0C74FA00470A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182EA17F1F0C74FA00470A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182EA1831F0C74FA00470A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182EA1841F0C74FA00470A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182EA19D1F0C74FA00470A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182EA19E1F0C74FA00470A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182EA1A01F0C74FA00470A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYPDFEditOC/WYPDFEditTool/FoxitRDK",
+				);
+				INFOPLIST_FILE = WYPDFEditOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYPDFEditOC/WYPDFEditTool/FoxitRDK",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-force_load",
+					"\"$(SRCROOT)/WYPDFEditOC/WYPDFEditTool/FoxitRDK/libFoxitRDKUIExtensions.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182EA1A11F0C74FA00470A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYPDFEditOC/WYPDFEditTool/FoxitRDK",
+				);
+				INFOPLIST_FILE = WYPDFEditOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYPDFEditOC/WYPDFEditTool/FoxitRDK",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-force_load",
+					"\"$(SRCROOT)/WYPDFEditOC/WYPDFEditTool/FoxitRDK/libFoxitRDKUIExtensions.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182EA1A31F0C74FA00470A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYPDFEditOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPDFEditOC.app/WYPDFEditOC";
+			};
+			name = Debug;
+		};
+		182EA1A41F0C74FA00470A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYPDFEditOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPDFEditOC.app/WYPDFEditOC";
+			};
+			name = Release;
+		};
+		182EA1A61F0C74FA00470A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYPDFEditOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYPDFEditOC;
+			};
+			name = Debug;
+		};
+		182EA1A71F0C74FA00470A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYPDFEditOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.WYPDFEditOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYPDFEditOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182EA16D1F0C74FA00470A9A /* Build configuration list for PBXProject "WYPDFEditOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182EA19D1F0C74FA00470A9A /* Debug */,
+				182EA19E1F0C74FA00470A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182EA19F1F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182EA1A01F0C74FA00470A9A /* Debug */,
+				182EA1A11F0C74FA00470A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182EA1A21F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182EA1A31F0C74FA00470A9A /* Debug */,
+				182EA1A41F0C74FA00470A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182EA1A51F0C74FA00470A9A /* Build configuration list for PBXNativeTarget "WYPDFEditOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182EA1A61F0C74FA00470A9A /* Debug */,
+				182EA1A71F0C74FA00470A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182EA16A1F0C74FA00470A9A /* Project object */;
+}
